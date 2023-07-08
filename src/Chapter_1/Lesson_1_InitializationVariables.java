@@ -1,6 +1,8 @@
-public class Lesson_1 {
+package Chapter_1;
+
+public class Lesson_1_InitializationVariables {
     public static void main(String[] args) {
-        String name = "Thu Htet Naing";
+        String name = "Ku Kue";
         System.out.println(name);
         name = "Mya Mya";
         System.out.println(name);
