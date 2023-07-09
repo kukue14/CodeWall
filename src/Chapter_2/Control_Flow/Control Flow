@@ -1,0 +1,16 @@
+Control Flow Statement
+    1. if / if else / if else if
+    2. while / do while (looping)
+    3. for (looptin)
+
+
+1. if Statement
+    a. if
+        syntax : if( <condition> ) { <implementation> }
+    b. if else
+        syntax : if( <condition> ) { <implementation> } else { <implementation> }
+    c. if else if
+        syntax : if( <condition> ) { <implementation> } else if( <condition> ) { <implementation> } else { <implementation> }
+
+2. Looping
+    a. while
