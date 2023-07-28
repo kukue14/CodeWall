@@ -1,0 +1,89 @@
+Data Types
+1. Primitive Data Type (8 Types) / Static Data Type (Static is stable, Dynamic is unstable)
+    A. Integers
+        i.    byte      - 1 byte    - -128 to 127 (Decimal)
+        ii.   short     - 2 byte    - -32,768 to 32,767 (Decimal)
+        iii.  int       - 4 byte    - -2^(32) to 2^(32)-1 (Decimal)
+        iv.   long      - 8 byte    - -2^(64) to 2^(64)-1 (Decimal)
+
+    B. Decimal
+        v.    float     - 4 byte    - -2^(32) to 2^(32)-1 (Decimal)
+        vi.   double    - 8 byte    - -2^(64) to 2^(64)-1 (Decimal)
+
+    C. True/ False
+        vii.  boolean   - 1 bit
+
+    D. Character
+        viii. char      - 1 byte
+
+2. Non-Primitive Data Type
+    A. String
+    B. Array
+    C. Class
+    D. Object
+    E. Enum
+
+
+int result = a + b; (Statement)
+a + b (Expression)
+
+
+Operators
+    1. Unary Operator (One Operand)
+    2. Binary Operator (Two Operands)
+    3. Ternary Operator (Three Operands)
+
+1. Unary Operator (increment (++), decrement (--))
+    a. Prefix   (++a, --b)
+    b. Postfix  (a++, b--)
+
+
+2. Binary Operator
+    a. Arithmetic Operator     (+ , - , * , / , %)
+    b. Comparison Operator     (< , > , <= , >= , == , !=)
+    c. Logical Operator        (&& , ||)
+    d. Bitwise Operator        (& , | , ^) ^ : nor (မတူရင် 1 တူရင် 0)
+    e. Shift Operator          (<< , >> , >>>)
+    f. Assignment Operator     (= , += , -= , *= , /= , %= , <<= , >>=, &=, |=)
+
+
+3. Ternary Operator (   ?   :   )
+        ?   :
+        syntax : <data type> <variable> = ( <condition> ) ? first condition(true) : second condition(false);
+
+
+
+Chapter-2
+
+Control Flow Statements
+    1. if / if else / if else if
+    2. while / do while (looping)
+    3. for (looping)
+
+
+1. if Statement
+    a. if
+        syntax : if( <condition> ) { <implementation> }
+    b. if else
+        syntax : if( <condition> ) { <implementation> } else { <implementation> }
+    c. if else if
+        syntax : if( <condition> ) { <implementation> } else if( <condition> ) { <implementation> } else { <implementation> }
+
+2. Looping
+    a. while
+        syntax : while( <condition> ) { <implementation> }
+
+    b. for
+        syntax : for( <initialization>; <condition>; <increment/ decrement>) { <implementation> }
+
+        There are 3 Statements in (   ) of For.
+            First Statement     : Initialization
+            Second Statement    : Condition
+            Third Statement     : Increment / Decrement
+
+        - for each loop
+            syntax : for(<data type> variable : array_variable) { <implementation> }
+
+    c. do....while
+        syntax : do{ <implementation> } while( <condition> );
+

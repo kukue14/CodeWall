@@ -1,0 +1,4 @@
+ExamMarks
+    mark < 40 -> Fail
+    mark > 40 -> Pass
+    mark > 79 -> D

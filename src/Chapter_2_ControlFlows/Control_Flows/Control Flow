@@ -1,0 +1,33 @@
+Control Flow Statements
+    1. if / if else / if else if (if Statement)
+    2. switch-case (switch Statement)
+    3. while / do while (looping)
+    4. for (looping)
+
+
+1. if Statement
+    a. if
+        syntax : if( <condition> ) { <implementation> }
+    b. if else
+        syntax : if( <condition> ) { <implementation> } else { <implementation> }
+    c. if else if
+        syntax : if( <condition> ) { <implementation> } else if( <condition> ) { <implementation> } else { <implementation> }
+
+2. Switch Statement;
+    syntax : switch ( <expression> )
+             {
+                <implementation>
+             }
+
+3. Looping
+    a. while
+        syntax : while( <condition> ) { <implementation> }
+
+    b. do....while
+        syntax : do{ <implementation> } while( <condition> );
+
+    c. for
+        syntax : for( <initialization>; <condition>; <increment/ decrement>) { <implementation> }
+
+
+

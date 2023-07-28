@@ -1,0 +1,19 @@
+Array
+    1. Normal Array
+    2. Two Dimensional Array
+    3. Jagged Array
+
+1. Normal Array
+
+    a. Initialization  ( = { <values> };)
+    b. Object creation ( = new <data type>[index size];)
+
+    syntax : <data type> array_variable[] = { <values> };
+
+    Outputs
+        - System.out.println(Array.toString(array_variable));
+        - By using Looping
+
+2. Two Dimensional Array
+
+    syntax : <data type> array_variable[][] = {{first value}, {second value}, .....};

@@ -1,0 +1,24 @@
+Operators
+    1. Unary Operator (One Operand)
+    2. Binary Operator (Two Operands)
+    3. Ternary Operator (Three Operands)
+
+1. Unary Operator (increment (++), decrement (--))
+    a. Prefix   (++a, --b)
+    b. Postfix  (a++, b--)
+
+
+
+
+2. Binary Operator
+    a. Arithmetic Operator     (+ , - , * , / , %)
+    b. Comparison Operator     (< , > , <= , >= , == , !=)
+    c. Logical Operator        (&& , ||)
+    d. Bitwise Operator        (& , | , ^) ^ : nor (မတူရင် 1 တူရင် 0)
+    e. Shift Operator          (<< , >> , >>>)
+    f. Assignment Operator     (= , += , -= , *= , /= , %= , <<= , >>=, &=, |=)
+
+3. Ternary Operator (   ?   :   )
+        ?   :
+        syntax : <data type> <variable> = ( <condition> ) ? first condition(true) : second condition(false);
+
