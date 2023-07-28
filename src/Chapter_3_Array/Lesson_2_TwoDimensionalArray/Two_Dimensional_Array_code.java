@@ -13,11 +13,11 @@ public class Two_Dimensional_Array_code {
         names[2][0] = "Mg Ba";
         names[2][1] = "Bo Bo";
         names[2][2] = "Su Su";
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 4; j++) {
-                System.out.println(numbers[i][j]);
-                System.out.println(names[i][j]);
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print(numbers[i][j] + " ");
             }
+            System.out.println();
         }
     }
 }
