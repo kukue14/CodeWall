@@ -32,6 +32,7 @@ public class Array_code {
         }
         System.out.println();
         FormatLite.Underline('=', 50);
+
         for(int i=num1.length-1; i>=0; i--)
             System.out.print(num1[i] + "\t");
     }
