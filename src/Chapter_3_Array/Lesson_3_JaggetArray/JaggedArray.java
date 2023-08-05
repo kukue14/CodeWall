@@ -13,7 +13,5 @@ public class JaggedArray {
             for (int j=0; j<nums[i].length; j++) System.out.print(nums[i][j] + "\t");
             System.out.println();
         }
-
-
     }
 }
