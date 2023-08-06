@@ -1,0 +1,11 @@
+Class       (template, blueprint)   => Properties, methods (functions)
+Object                              => state, behavior
+Inheritance                         => parent - child
+Polymorphism                        => လုပ်တဲ့ အလုပ်တူ၊ ပြုလုပ်နည်း မတူ
+Abstraction                         => လိုအပ်တာတွေပြ၊ မလိုအပ်တာတွေ hide ထား
+Encapsulation                       => ထိန်းချုပ်ထား...
+
+Properties    => global variables   => data member, field, state, instance
+Global variable                     => methods တွေ ရဲ့အပြင်မှာရေးထားတဲ့ variable
+                                    => static variable
+                                    => non-static variable || instance variable
