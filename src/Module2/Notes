@@ -9,3 +9,22 @@ Properties    => global variables   => data member, field, state, instance
 Global variable                     => methods တွေ ရဲ့အပြင်မှာရေးထားတဲ့ variable
                                     => static variable
                                     => non-static variable || instance variable
+
+Methods
+    Method Syntax : <return type> <method name>() { <implementation> }
+    Return Types - primitive datatype, non-primitive datatype
+    No-return type - void
+
+    Method Type by OOP
+       1. instance method (non-static method)
+       2. static method
+
+Method Signature
+    1. Return type ပါ
+    2. Return type မပါ
+    3. Parameter ပါ
+    4. Parameter မပါ
+
+Object Creation
+    CN obj = new CN(); obj object
+    new CN(); anonymous object
