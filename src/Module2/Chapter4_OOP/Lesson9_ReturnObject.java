@@ -1,6 +1,6 @@
 package Module2.Chapter4_OOP;
 
-public class Lesson9_Parameters {
+public class Lesson9_ReturnObject {
     static void calculate(int a, int b) {
         System.out.println(a + b);
     }
@@ -19,6 +19,5 @@ public class Lesson9_Parameters {
 
         fullName("Thu", "Htet", "Naing");
         System.out.println(sum(5, 5.2, 3.4));
-
     }
 }

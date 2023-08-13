@@ -28,3 +28,36 @@ Method Signature
 Object Creation
     CN obj = new CN(); obj object
     new CN(); anonymous object
+
+Properties Initialization
+    1. direct reference
+    2. by method
+    3. by constructor
+
+Access Modifier
+    1. public       - in use : properties, methods, class   // accessible range - the whole project
+    2. protected    - in use : properties, methods          // accessible range - same class and child class
+    3. private      - in use : properties, methods          // accessible range - same class
+    4. default      - in use : properties, methods, class   // accessible range - same class and same package
+
+Non-access Modifier
+    1. static
+    2. final
+    3. synchronized
+    4. transient
+    5. abstract
+
+Method Syntax
+    min : <return type> <method name>() { }
+    max : <access modifier> <non-access modifier> <return type> <method name>( <parameter> ) { }
+
+Constructor
+    1. Default constructor (zero argument constructor)
+    2. Parameterized constructor
+
+    syntax : <class name>( <parameter> ) { <implementation> }
+
+    Access Modifiers in constructor (usually) : public, private, default
+
+    note : Class တစ်ခုမှာ Default Constructor တစ်ခုအမြဲပါ။
+    Default Constructor : <class name>() {}
