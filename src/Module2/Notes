@@ -61,3 +61,20 @@ Constructor
 
     note : Class တစ်ခုမှာ Default Constructor တစ်ခုအမြဲပါ။
     Default Constructor : <class name>() {}
+
+Initializer Block
+    1. instance initializer block
+    2. static initializer block
+
+
+Lesson-5 Inheritance
+    1. Single inheritance
+    2. Multi-level Inheritance
+    3. Hierarchical Inheritance
+    4. Multiple Inheritance
+    5. Hybrid Inheritance
+
+Chapter-6 Polymorphism
+    ဦးတည်ချက်တူ လုပ်ဆောင်ချက်မတူ
+    1. Method Overloading
+    2. Method Overriding
