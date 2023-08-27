@@ -111,11 +111,6 @@ public class Lesson6_DifferentMethods {
                 System.out.println(n.toUpperCase());
             }
         });
-
-
-
-
-
     }
 }
 
