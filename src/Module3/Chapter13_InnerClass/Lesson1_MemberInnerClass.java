@@ -12,7 +12,8 @@ public class Lesson1_MemberInnerClass {
     public static void main(String[] args) {
 
         Lesson1_MemberInnerClass obj = new Lesson1_MemberInnerClass();
-        Lesson1_MemberInnerClass.inner innerObj = new Lesson1_MemberInnerClass();
+        Lesson1_MemberInnerClass.inner innerObj = obj.new inner();
+        innerObj.show();
 
 
     }
