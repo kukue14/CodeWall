@@ -38,6 +38,7 @@ public class Lesson7_Sorting {
 //                (front,back)->{if(front>back) return -1;
 //                return 1;
 //        });
+//        System.out.println(integers);
 
 //        Collections.sort(integers,(o1, o2) -> o1.compareTo(o2));
 //        System.out.println(integers);
